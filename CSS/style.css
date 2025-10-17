@@ -62,12 +62,20 @@ main h1 {
 /* Responsive design */
 @media (max-width: 600px) {
   nav ul {
+    
+    list-style: none;
+    display: flex;
     flex-direction: column;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    gap: 20px;                 /* space between items */
+    padding: 0;
+
   }
 
   nav ul li {
     margin: 10px 0;
-    align-items: center;
+    
   }
 
   main h1 {
