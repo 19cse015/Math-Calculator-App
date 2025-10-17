@@ -110,12 +110,22 @@ button:hover {
 }
 
 /* Responsive for mobile */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   form {
     width: 90%;
   }
 
   main h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
+
+   nav ul {
+    flex-direction: column;
+  }
+
+   nav ul li {
+    margin: 10px 0;
+  }
+
 }
+

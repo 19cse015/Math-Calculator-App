@@ -82,7 +82,7 @@ form button:hover {
 }
 
 /* Responsive design */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     form input[type="text"] {
         width: 200px;
     }

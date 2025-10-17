@@ -115,7 +115,17 @@ button:hover {
     width: 90%;
   }
 
+  
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
   main h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
